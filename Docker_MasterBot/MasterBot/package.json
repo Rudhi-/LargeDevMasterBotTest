@@ -1,0 +1,18 @@
+{
+  "name": "masterbot",
+  "version": "0.0.1",
+  "main": "main.js",
+  "author": "Anirudha Simha",
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "Slack",
+    "Bot",
+    "slackbot",
+    "example"
+  ],
+  "dependencies": {
+    "botkit": "^0.2.2"
+  }
+}
