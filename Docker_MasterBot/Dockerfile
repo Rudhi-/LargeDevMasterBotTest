@@ -16,6 +16,6 @@ EXPOSE 80
 COPY MasterBot /usr/masterbot/MasterBot
 #RUN node /usr/masterbot/MasterBot/main.js &
 
-WORKDIR /usr/testbot/MasterBot 
+WORKDIR /usr/masterbot/MasterBot 
 
-CMD ["node", "main"]
+CMD ["npm", "start"]

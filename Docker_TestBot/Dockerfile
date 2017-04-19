@@ -13,7 +13,7 @@ COPY ExampleBot /usr/testbot/ExampleBot
 #RUN node /usr/testbot/ExampleBot/main.js
 WORKDIR /usr/testbot/ExampleBot 
 
-CMD ["node", "main"]
+CMD ["npm", "start"]
 # Install masterbot
 #COPY MasterBot /usr/masterbot/MasterBot
 #RUN node /usr/masterbot/MasterBot/main.js &
